@@ -1,0 +1,32 @@
+/* Sets the header background color, font, and spacing for each element */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Changes font size for the main header */
+header h1 {
+    font-size: 48px;
+}
+
+/* Styles the nav font and font size and gives the proper padding to center it within the header section */
+header nav {
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Gets rid of the bullet points for the nav links */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Sets the nav links in the proper order and gives it a margin for proper spacing */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
