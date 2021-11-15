@@ -91,15 +91,25 @@ section{
 
 /* Creates a flex container and attributes for the project section elements */
 .flex-container{
-    width: 60%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
 }
+/* Main card formatting */
+.main-card{
+    width: 70%;
+    margin: auto 1px 1px 0;
+    border: black solid 5px;
+}
+/* Main card img formatting */
+.main-card img{
+    width: 100%;
+}
 /* Formatting for the cards */
 .card{
+    width: 35%;
     margin: auto 1px 1px 0;
     border: black solid 5px;
 }
@@ -152,7 +162,11 @@ footer a{
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 1080px) {
     .main-card{
-        min-width: 800px;
+        min-width: 600px;
+    }
+
+    .card{
+        min-width: 300px;
     }
 }
 @media screen and (max-width: 980px) {
@@ -163,13 +177,16 @@ footer a{
 /* MEDIA QUERY FOR TABLETS AND SMALLER*/
 @media screen and (max-width: 768px){
     .main-card{
-        min-width: 500px;
+        min-width: 600px;
     }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px){
     .main-card{
-        min-width: 400px;
+        min-width: 250px;
+    }
+    .card{
+        min-width: 150px;
     }
 }
