@@ -1,4 +1,4 @@
-# My projects
+# My Portfolio Website!
 
 ## Purpose
 A website that shows off my current projects
@@ -7,6 +7,7 @@ A website that shows off my current projects
 * HTML
 * CSS
 ## Website
+https://mikebashford.github.io/portfolio/
 
 ## Contribution
 Made by Mike Bashford
